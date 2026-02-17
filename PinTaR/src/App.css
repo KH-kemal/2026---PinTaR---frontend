@@ -1,0 +1,3 @@
+﻿/* App.css - Global page transition */
+.page-enter { animation: pageIn 0.5s ease-out; }
+@keyframes pageIn { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: translateY(0); } }
